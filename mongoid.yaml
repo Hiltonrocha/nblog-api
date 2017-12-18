@@ -1,21 +1,21 @@
 development:
     clients:
         default:
-            database: nblog-api
+            database: nblog-dev
             hosts:
-                - 'ds159866.mlab.com:59866'
+                - 'ds159926.mlab.com:59926'
             options:
                 user: dev-app
                 password: dev#123
-# qa:
-#     clients:
-#         default:
-#             database: nblog-qa
-#             hosts:
-#                 - 'ds149551.mlab.com:49551'
-#             options:
-#                 user: qa-app
-#                 password: qa#123
+qa:
+    clients:
+        default:
+            database: nblog-qa
+            hosts:
+                - 'ds149551.mlab.com:49551'
+            options:
+                user: qa-app
+                password: qa#123
 # uat:
 #     clients:
 #         default:
